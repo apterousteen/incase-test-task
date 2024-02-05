@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 61.25em) {
+  .product-detail-page {
+    flex-direction: column;
+    gap: 64px;
+  }
 }
